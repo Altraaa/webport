@@ -1,0 +1,260 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+
+}
+.logokanan {
+    margin-left: 40%;
+    font-size: 165%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 105px;
+    background-color: rgb(0, 67, 35);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    box-shadow: 10 20px 110px black;
+
+}
+nav a {
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2.6rem;
+    text-decoration: none;
+    color: white;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+nav p {
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2.8rem;
+    color: white;
+}
+nav a:hover {
+    color: hsl(160, 94%, 59%);
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.gmn {
+    background-color: #034397;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    box-shadow: #034397;
+    margin-left: 35%;
+}
+span {
+    color: hsl(160, 100%, 90%);
+}
+#welcome-section {
+    background-image: url(IMG/bg\ blur.png);
+    background-color: hsl(160, 100%, 90%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.nama {
+    font-size: 620%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.kecil {
+    font-size: 230%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main section {
+    margin: 20px 10% 20px 10%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-column-gap: 10px;
+    justify-items: center;
+    transition-duration: 2s;
+    transition-property: inherit;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.project-tile {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-property: inherit;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.project-tile img {
+    width: 330px;
+    height: 190px;
+}
+main {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(160, 100%, 90%);
+}
+main button {
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border-color: rgb(0, 67, 35);
+    cursor: pointer;
+    box-shadow: none;
+    width: auto;
+    align-self: center;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 20px;
+}
+  
+main a,
+main a:hover,
+main a:active,
+main a:focus,
+main a:visited {
+    text-decoration: none;
+    color: rgb(0, 67, 35);
+    transition-duration: 2s;
+    transition-property: inherit;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+main section div a:hover {
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px, 5px -5px 20px, 5px 5px 20px, -5px -5px 20px;
+    transition-duration: 2s;
+    transition-property: inherit;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+a,
+a:hover,
+a:active,
+a:focus,
+div a:visited {
+    color: black;
+    text-decoration: none;
+}
+main section div a img {
+    border: solid;
+    border-color: rgb(0, 67, 35);
+    border-width: 2px;
+    border-radius: 10px;
+    height: 120px;
+    width: auto;
+    overflow: hidden;
+}
+.deskpro {
+    font-size: 1.3rem;
+    margin-top: 0.9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer {
+    background-color: hsl(160, 100%, 90%);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  footer div a {
+    background-color: black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+    overflow: hidden;
+    transition-duration: 2s;
+    transition-property: inherit;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  footer div a:hover {
+    border-radius: 50%;
+    box-shadow: -5px 5px 10px, 5px -5px 10px, 5px 5px 10px, -5px -5px 10px;
+    transition-duration: 2s;
+    transition-property: inherit;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  footer div a img {
+    border-radius: 50%;
+  }
+  footer div p {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .ftr {
+    background-color: rgb(0, 67, 35);
+  }
+
+  .main-footer {
+    background: #000;
+    color: #fff;
+  }
+  .main-bawah {
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+  }  
+  .main-footer__upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 4.2rem 0;
+  }
+  .main-footer__lower {
+    padding: 1.7rem 0;
+    border-top: 1px solid #444;
+    color: #eee;
+    font-size: 0.9rem;
+    text-align: left;
+    text-align: center;
+  }
+  .main-footer__row-2 {
+    width: 40%;
+    order: 1;
+    max-width: 50rem;
+  }
+  .heading-sm {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .main-footer__short-desc {
+    margin-top: 1.5rem;
+    color: #eee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.0rem;
+    line-height: 1.7;
+  }
+  .main-footer__social-cont {
+    margin-top: 2rem;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .main-footer__icon {
+    margin-right: 1rem;
+    width: 2.5rem;
+  }
+  .lg-view {
+    color: #fff;
+  }
+  .heading-sm {
+    font-size: 2.5rem;
+    color: hsl(160, 100%, 90%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+ 
